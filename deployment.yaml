@@ -14,7 +14,7 @@ spec:
        spec:
           containers:
           - name: docker-spring
-            image: oklimenko/docker-spring:1_0
+            image: oklimenko/docker-spring:2_4
             env:
               - name: DATABASE_URI
                 valueFrom:

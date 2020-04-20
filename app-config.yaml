@@ -4,7 +4,7 @@ metadata:
   name: docker-spring-config
 data:
   GREETING: Bonjour
-  DATABASE_URI: jdbc:postgresql://postgre:5432/docker-spring
+  DATABASE_URI: jdbc:postgresql://postgres:5432/docker-spring
 ---
 apiVersion: v1
 kind: Secret
